@@ -28,9 +28,3 @@ return output.slice(0, -1);
 console.log(convert("CCGUCGUUGCGCUACAGC"));
 console.log(convert("CCUCGCCGGUACUUCUCG"));
 console.log(convert(window.prompt("Entre une ARN ", "")));
-
-/*
-UUA ou UUG => Leucine
-UUU ou UUC => Phénylalanine
-CGU ou CGC ou CGA ou CGG ou AGA ou AGG => Arginine
-UAU ou UAC => Tyrosine*/
