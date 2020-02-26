@@ -45,5 +45,5 @@ console.log("Le livre le moin emprunter est :" + sorted[0].title);
 
 console.log("Le livre avec l'id 873495 est :" + found)
 
-Console.log("Liste des livre par ordre alphabetique:")
+console.log("Liste des livre par ordre alphabetique:")
 console.log(sorted)
