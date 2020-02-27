@@ -1,7 +1,3 @@
-let str = "UUACGCAGUAGA"
-let output = "";
-
-
 
 const acid =[  
   {name: 'Sérine', ac: ["UCU","UCC","UCA","UCG","AGU","AGC"]},
@@ -14,6 +10,7 @@ const acid =[
 ]
 
 function convert(str){ 
+let output = "";
 let code = str.match(/.{1,3}/g);;
 code.forEach((code, index) => {
   acid.forEach((item, index) => {
@@ -26,5 +23,7 @@ return output.slice(0, -1);
 }
 
 console.log(convert("CCGUCGUUGCGCUACAGC"));
+
 console.log(convert("CCUCGCCGGUACUUCUCG"));
+
 console.log(convert(window.prompt("Entre une ARN ", "")));
