@@ -9,12 +9,12 @@ let found = str.match(regex);
 
 if (last == "?"){
   console.log("Ouais Ouais..");
-}else if (caps != null){ 
-  console.log("Pwa, calme-toi...");
+}else if (str.length == 0){ 
+  console.log("t'es en PLS ?");
 }else if (found != null){
   console.log("On s' fait une partie soum-soum ?");
-}else if (str.length == 0) {
-  console.log("t'es en PLS ?");
+}else if (caps != null) {
+  console.log("Pwa, calme-toi...");
 } else {
   console.log("balek");
 }

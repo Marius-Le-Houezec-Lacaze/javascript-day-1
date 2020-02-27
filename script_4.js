@@ -26,15 +26,15 @@ console.log("Les inventeur née dans les année 70 sont :")
 entrepreneurs.forEach((item, index) => {
   if (item.year < 1980 && item.year > 1969)
   {
-    console.log(item.first + item.last + "Est née en " + item.year)
+    console.log(item.first + item.last + " Est née en " + item.year)
   }
-})
+});
 
 console.log("Nom et prenom")
 entrepreneurs.forEach((item, index) => {
-  output = {Nom: item.first, Prenom: item.last}
+  output = item.first +" " + item.last;
   array.push(output);
-})
+});
 console.log(array);
 
 console.log("Les inventeur on cette age en 2020 :");
