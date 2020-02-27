@@ -1,18 +1,18 @@
-result = window.prompt("Entre un nombre", "");
-row = parseInt(result, 10);
-let pos = 0;
+var result = window.prompt("Entre un nombre", "");
+var row = parseInt(result, 10);
+var pos = 0;
 
 
 for(let i=0; i<row; i++){
-  var output = '';
+  let output = '';
   for(let e = 0; e < row - i ; e++)
   {
-    output += " ";
+    output += ' ';
     pos = e;
   }
   while(pos < row){
     output += "#"
     pos ++;
   }
-  console.log(output)
+  console.log(output);
 } 

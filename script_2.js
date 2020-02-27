@@ -1,6 +1,6 @@
 result = window.prompt("Entre un nombre", "");
 num = parseInt(result, 10);
-res = num
+res = num;
 
 while(num > 1 )
 {

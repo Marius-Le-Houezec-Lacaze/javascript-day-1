@@ -22,7 +22,7 @@ sorted.forEach((item, index) =>
 {
   if(item.id == 133712)
   {
-    books.pop(index)
+    books.pop(index);
   }
 });
 
@@ -40,10 +40,11 @@ if(ret == false )
   console.log("Aucun livre n'a pas était emprunter");
 }
 
-console.log("Le livre le plus emprunter est :" + sorted[sorted.length - 1].title);
-console.log("Le livre le moin emprunter est :" + sorted[0].title);
-
-console.log("Le livre avec l'id 873495 est :" + found)
-
-console.log("Liste des livre par ordre alphabetique:")
-console.log(sorted)
+console.log("Le livre le plus emprunter est : " + sorted[sorted.length - 1].title);
+console.log(" ")
+console.log("Le livre le moin emprunter est : " + sorted[0].title);
+console.log(" ")
+console.log("Le livre avec l'id 873495 est : " + found);
+console.log(" ")
+console.log("Liste des livre par ordre alphabetique: ");
+console.log(sorted);

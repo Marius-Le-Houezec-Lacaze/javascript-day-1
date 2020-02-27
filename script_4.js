@@ -33,15 +33,15 @@ entrepreneurs.forEach((item, index) => {
 console.log("Nom et prenom")
 entrepreneurs.forEach((item, index) => {
   output = {Nom: item.first, Prenom: item.last}
-  array.push(output)
+  array.push(output);
 })
-console.log(array)
+console.log(array);
 
-console.log("Les inventeur on cette age en 2020 :")
+console.log("Les inventeur on cette age en 2020 :");
 
 entrepreneurs.forEach((item, index) => {
-  console.log(item.first + item.last + "Age : " + (2020 - item.year))
+  console.log(item.first + item.last + "Age : " + (2020 - item.year));
 })
 
-console.log("Les entrepeneur ranger pars ordre alphabetique:")
-console.log(entrepreneurs.sort((a, b) => a.last.localeCompare(b.last)))
+console.log("Les entrepeneur ranger pars ordre alphabetique:");
+console.log(entrepreneurs.sort((a, b) => a.last.localeCompare(b.last)));

@@ -11,11 +11,11 @@ const acid =[
 
 function convert(str){ 
 let output = "";
-let code = str.match(/.{1,3}/g);;
+let code = str.match(/.{1,3}/g);
 code.forEach((code, index) => {
   acid.forEach((item, index) => {
     if(item.ac.includes(code)){
-      output += item.name + "-" ;
+      output += item.name + "-";
     }
   })
 })
